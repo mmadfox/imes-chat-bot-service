@@ -1,0 +1,25 @@
+{
+  "serviceId": "chat",
+
+  "mongodb": {
+    "port": 27017,
+    "host": "127.0.0.1",
+    "dbName": "imes"
+  },
+
+  "redis": {
+    "port": 6379,
+    "host": "127.0.0.1"
+  },
+
+  "redisCache": {
+    "port": 6379,
+    "host": "127.0.0.1"
+  },
+
+  "messageQueue": {
+    "workers": 5
+  },
+
+  "nats": {}
+}

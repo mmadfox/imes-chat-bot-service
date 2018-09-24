@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "name": "imes-chat",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bull": "^3.4.7",
+    "commander": "^2.17.1",
+    "hemera": "^0.0.5",
+    "minimist": "^1.2.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.10",
+    "mongoose-uuid2": "^2.1.0",
+    "nats": "^1.0.1",
+    "nats-hemera": "^6.0.0",
+    "node-uuid": "^1.4.8",
+    "nohm": "^2.1.0",
+    "redis": "^2.8.0",
+    "uuid-validate": "0.0.3",
+    "validate": "^4.5.1",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.11.1",
+    "socketcluster-client": "^14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/streltsoff/imes-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/streltsoff/imes-chat/issues"
+  },
+  "homepage": "https://gitlab.com/streltsoff/imes-chat#README"
+}
